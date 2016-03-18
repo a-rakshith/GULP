@@ -81,13 +81,13 @@ gulp.task('build', ['build:remove']);
 
 //Browser-Sync Tasks
 ///////////////////////
-gulp.task('browser-sync',function(){
+/*gulp.task('browser-sync',function(){
 	browserSync({
 		server:{
 			baseDir:"./app"
 		}
 	});
-});
+});*/
 
 //Watch Tasks
 ////////////////
@@ -101,4 +101,4 @@ gulp.task('watch',function(){
 //Default Task
 ///////////////
 
-gulp.task('default',['scripts','compass','html','browser-sync','watch']);
+gulp.task('default',['scripts','compass','html','watch']);
